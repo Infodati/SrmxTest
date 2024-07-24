@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_xa33AEncEe-h54YYzIP2Hw" label="SrmxTest" description="Test" language="java" technicalLabel="SRMXTEST" author="_xa33AUncEe-h54YYzIP2Hw" productVersion="Talend Data Integration-8.0.1.20231017_1026-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/Infodati/SrmxTest&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false">
+    <migrationTask xmi:id="_xcsb8EncEe-h54YYzIP2Hw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_xa33AUncEe-h54YYzIP2Hw" login="talend-admin@sirmax.com" firstName="talend" lastName="talend" type="DI" additionnalData="{}"/>
+</xmi:XMI>
