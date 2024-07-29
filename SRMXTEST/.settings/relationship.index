@@ -5,11 +5,15 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_kZlAEE2vEe-tTvjemBYVaA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_vs9BsEtSEe-gjecqPgdhkg",
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_vs9BsEtSEe-gjecqPgdhkg - T001",
+    "id" : "_vs9BsEtSEe-gjecqPgdhkg - KNA1",
     "version" : "Latest",
     "type" : "schema"
   } ]
