@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" internalId="_4pLUAIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Port" prompt="Sirmax_Staging_Port?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_4pLUAYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Database" prompt="Sirmax_Staging_Database?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="sirmax_staging_test"/>
-    <contextParameter comment="" internalId="_4pLUAoO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Schema" prompt="Sirmax_Staging_Schema?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="public"/>
-    <contextParameter comment="" internalId="_4pL7EIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Password" prompt="Sirmax_Staging_Password?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_Password" value="enc:system.encryption.key.v1:bSp6o/PIPuSu+1JCtAkbmXPFR9KIgYdxw9/UV/MeFbyDGwyrNQKRbA=="/>
-    <contextParameter comment="" internalId="_4pL7EYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Server" prompt="Sirmax_Staging_Server?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="srvcit234.sirmax.locale"/>
-    <contextParameter comment="" internalId="_4pL7EoO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Login" prompt="Sirmax_Staging_Login?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="postgres"/>
-    <contextParameter comment="" internalId="_4pL7E4O0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_AdditionalParams" prompt="Sirmax_Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value=""/>
-  </context>
   <context confirmationNeeded="false" hide="false" name="prod">
     <contextParameter comment="" internalId="_4pL7FIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Port" prompt="Sirmax_Staging_Port?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="5432"/>
     <contextParameter comment="" internalId="_4pL7FYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Database" prompt="Sirmax_Staging_Database?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="sirmax_staging"/>
@@ -16,6 +7,12 @@
     <contextParameter comment="" internalId="_4pL7GIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Server" prompt="Sirmax_Staging_Server?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="srvcit234.sirmax.locale"/>
     <contextParameter comment="" internalId="_4pL7GYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Login" prompt="Sirmax_Staging_Login?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="postgres"/>
     <contextParameter comment="" internalId="_4pL7GoO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_AdditionalParams" prompt="Sirmax_Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_AaEJgIPNEe-Z08ALmRQ7SA" name="SirmaxSap_UserName" prompt="SirmaxSap_UserName?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_String" value="rfc_user"/>
+    <contextParameter comment="" internalId="_AaEJgYPNEe-Z08ALmRQ7SA" name="SirmaxSap_Client" prompt="SirmaxSap_Client?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_String" value="300"/>
+    <contextParameter comment="" internalId="_AaEJgoPNEe-Z08ALmRQ7SA" name="SirmaxSap_SystemNumber" prompt="SirmaxSap_SystemNumber?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_String" value="30"/>
+    <contextParameter comment="" internalId="_AaEJg4PNEe-Z08ALmRQ7SA" name="SirmaxSap_Password" prompt="SirmaxSap_Password?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_Password" value="enc:system.encryption.key.v1:KEZqBl6YuVfNOHHTdr2vxfkAPBEOttRslqVA8zIP9zkvdrf9"/>
+    <contextParameter comment="" internalId="_AaEJhIPNEe-Z08ALmRQ7SA" name="SirmaxSap_Language" prompt="SirmaxSap_Language?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_String" value="EN"/>
+    <contextParameter comment="" internalId="_AaEJhYPNEe-Z08ALmRQ7SA" name="SirmaxSap_Host" prompt="SirmaxSap_Host?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_String" value="srvsirprod.sirmax.locale"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="test">
     <contextParameter comment="" internalId="_4pL7G4O0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Port" prompt="Sirmax_Staging_Port?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="5432"/>
@@ -25,6 +22,12 @@
     <contextParameter comment="" internalId="_4pL7H4O0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Server" prompt="Sirmax_Staging_Server?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="srvcit234.sirmax.locale"/>
     <contextParameter comment="" internalId="_4pL7IIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Login" prompt="Sirmax_Staging_Login?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="postgres"/>
     <contextParameter comment="" internalId="_4pL7IYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_AdditionalParams" prompt="Sirmax_Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_AaEwkIPNEe-Z08ALmRQ7SA" name="SirmaxSap_UserName" prompt="SirmaxSap_UserName?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_String" value="rfc_user"/>
+    <contextParameter comment="" internalId="_AaEwkYPNEe-Z08ALmRQ7SA" name="SirmaxSap_Client" prompt="SirmaxSap_Client?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_String" value="300"/>
+    <contextParameter comment="" internalId="_AaEwkoPNEe-Z08ALmRQ7SA" name="SirmaxSap_SystemNumber" prompt="SirmaxSap_SystemNumber?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_String" value="20"/>
+    <contextParameter comment="" internalId="_AaEwk4PNEe-Z08ALmRQ7SA" name="SirmaxSap_Password" prompt="SirmaxSap_Password?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_Password" value="enc:system.encryption.key.v1:aBxYBwdR6Gw3sebsydy24Wn9phiAN+nNHJanI+SDLzq9ZlO7"/>
+    <contextParameter comment="" internalId="_AaEwlIPNEe-Z08ALmRQ7SA" name="SirmaxSap_Language" prompt="SirmaxSap_Language?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_String" value="EN"/>
+    <contextParameter comment="" internalId="_AaEwlYPNEe-Z08ALmRQ7SA" name="SirmaxSap_Host" prompt="SirmaxSap_Host?" promptNeeded="false" repositoryContextId="_TPwxEIO1Ee-Z08ALmRQ7SA" type="id_String" value="srvsirsvil.sirmax.locale"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -131,12 +134,12 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
-    <elementParameter field="TEXT" name="CLIENT" value="&quot;300&quot;"/>
-    <elementParameter field="TEXT" name="USERID" value="&quot;rfc_user&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:JPVEz7Mu4xKJg+hv7rJ+0ryshQTisx4hXZDwl/Umk9itsAy5C/0="/>
-    <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;"/>
-    <elementParameter field="TEXT" name="HOSTNAME" value="&quot;srvsirprd.sirmax.locale&quot;"/>
-    <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;30&quot;"/>
+    <elementParameter field="TEXT" name="CLIENT" value="context.SirmaxSap_Client"/>
+    <elementParameter field="TEXT" name="USERID" value="context.SirmaxSap_UserName"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:dBZEgnnJAi/MkJyQG5cdCk6ER3zGSn4apjkae3q8oBD3FCKqymd3gVBAOrW1ii6VxRJKe2Vh"/>
+    <elementParameter field="TEXT" name="LANGUAGE" value="context.SirmaxSap_Language"/>
+    <elementParameter field="TEXT" name="HOSTNAME" value="context.SirmaxSap_Host"/>
+    <elementParameter field="TEXT" name="SYSTEMNUMBER" value="context.SirmaxSap_SystemNumber"/>
     <elementParameter field="TEXT" name="SYSTEMID" show="false" value="&quot;PRD&quot;"/>
     <elementParameter field="TEXT" name="GROUPNAME" show="false" value="&quot;tGroup&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
@@ -1889,13 +1892,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5e60c62a-b060-4410-9b81-89e1cce3fdfc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>a2EQzZLJwIOyKUEONyTwOX2dffJJGmCQkhENKf9c1LSU9yr0sJ9XYT+JwhSilwCdop3ojFgE11vX&#13;
-CvpGiCHKDg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cb7e4a81-0b1c-42f9-9ef7-741cd66c615b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8IhI3J0Wa8OZpeMkb8MxxJZVE5GhBxrCI2ZCtKRvu6bLaGAWFBbnq3f/9XnyJh/qOaFqFtJSAgwN&#13;
-bZTLkwynvQ==</DigestValue></Reference></SignedInfo><SignatureValue>cVWXLFremALfB9OXZIvIU8rTdY1z6FWtOtWEfkVujTPcGHagNOIHqeySZPXZuZcKp/8uM/hYlJFc&#13;
-ZzLMhl3XFHWwGTpv0NwKohSErTyThRqoEFYTzuZhVhW90lnX05xhBpXfzVOvKfMwOkTneGOT/RaS&#13;
-2bAeK19I2U7VGhQL1ZLinWr2f2UNaTg48KOZFxI+wpMGOfjMg/2Dta3houBjR9sJa40eEbnQcBFN&#13;
-yRf3X/2DV7NHcQPoGoZ2YHwH5JKccZTz1nlobACSLGrhvAp3hWT1WbvVJTrxRMatgfcDw22hlgwU&#13;
-u5xUKoUR9FzIVaGRH5phyG9uxl61Y10AFr7dLA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_afdd262b-dd37-4d0d-ab8a-d0506585ff19"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UQp8W4DVjq52UydqkEZGIoXWbd046s/kSAvNYoJ3LfeN9V6HA3STkJHh5jDeRIm1jkeEltIOfARy&#13;
+D3m1Ojx/rg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_95cefd68-8924-4acb-8cd6-0eaa725d006f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WHvcmhmFGEB2MZ29pL50BfJfiQynW9em8JcpOzjdLdUJG3/4EUE81yv1qAQDIhfwXRI6HVp+/ljz&#13;
+mCudZ87KdQ==</DigestValue></Reference></SignedInfo><SignatureValue>FI/KAJ0Kdj06Mew2Y0M8x3e8NYr1ef7rkf4ixWzQtUUJC5SKyBSIsAbf5IwIV1APxi1hGFGIuE13&#13;
+tFLCF7p7r0HJdOnnmwveXKAbHssUDLIGnfCBfaPszlVQZBbLAcLOb7ORnXi9D91AT1RUpE+mzPtk&#13;
+ib7Cr28rTvr8ND63M97qgPArJ9ljN32s31X/ybxkfOvP2BclOCYInX10SZx49foq+maXBcknASWe&#13;
+R0yX9pyH1V7GB7MPXzn6KtX2nEizrwHMfLL6AP3s5R3vBPpy8QMSwf0hUrtlrqViaJpfDnIecwBJ&#13;
+jouQBwRVwhoGISuJfmM8Z2FUfhUXPBh9iNt3Yw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1917,4 +1920,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cb7e4a81-0b1c-42f9-9ef7-741cd66c615b" Target="#_5e60c62a-b060-4410-9b81-89e1cce3fdfc"><Timestamp>2024-10-06 07:32:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_95cefd68-8924-4acb-8cd6-0eaa725d006f" Target="#_afdd262b-dd37-4d0d-ab8a-d0506585ff19"><Timestamp>2024-10-06 10:23:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

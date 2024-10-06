@@ -1,31 +1,6 @@
 {
   "itemId" : "_PAq8QEtTEe-rWuKSXrSY4w",
   "contextList" : [ {
-    "contextName" : "Default",
-    "repoId" : "_cuz64IO0Ee-Z08ALmRQ7SA",
-    "parameterList" : [ {
-      "id" : "_cvAIIYO0Ee-Z08ALmRQ7SA",
-      "name" : "Sirmax_Staging_Port"
-    }, {
-      "id" : "_cvAIIoO0Ee-Z08ALmRQ7SA",
-      "name" : "Sirmax_Staging_Database"
-    }, {
-      "id" : "_cvAII4O0Ee-Z08ALmRQ7SA",
-      "name" : "Sirmax_Staging_Schema"
-    }, {
-      "id" : "_cvAIJIO0Ee-Z08ALmRQ7SA",
-      "name" : "Sirmax_Staging_Password"
-    }, {
-      "id" : "_cvAIJYO0Ee-Z08ALmRQ7SA",
-      "name" : "Sirmax_Staging_Server"
-    }, {
-      "id" : "_cvAIJoO0Ee-Z08ALmRQ7SA",
-      "name" : "Sirmax_Staging_Login"
-    }, {
-      "id" : "_cvAIJ4O0Ee-Z08ALmRQ7SA",
-      "name" : "Sirmax_Staging_AdditionalParams"
-    } ]
-  }, {
     "contextName" : "prod",
     "repoId" : "_cuz64IO0Ee-Z08ALmRQ7SA",
     "parameterList" : [ {
@@ -51,6 +26,28 @@
       "name" : "Sirmax_Staging_AdditionalParams"
     } ]
   }, {
+    "contextName" : "prod",
+    "repoId" : "_TPwxEIO1Ee-Z08ALmRQ7SA",
+    "parameterList" : [ {
+      "id" : "_iu3jZYO1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_UserName"
+    }, {
+      "id" : "_iu3jYYO1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_Client"
+    }, {
+      "id" : "_iu3jY4O1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_SystemNumber"
+    }, {
+      "id" : "_iu3jZoO1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_Password"
+    }, {
+      "id" : "_iu3jYoO1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_Language"
+    }, {
+      "id" : "_iu3jZIO1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_Host"
+    } ]
+  }, {
     "contextName" : "test",
     "repoId" : "_cuz64IO0Ee-Z08ALmRQ7SA",
     "parameterList" : [ {
@@ -74,6 +71,28 @@
     }, {
       "id" : "_cvAIL4O0Ee-Z08ALmRQ7SA",
       "name" : "Sirmax_Staging_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_TPwxEIO1Ee-Z08ALmRQ7SA",
+    "parameterList" : [ {
+      "id" : "_iu3jbIO1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_UserName"
+    }, {
+      "id" : "_iu3jaIO1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_Client"
+    }, {
+      "id" : "_iu3jaoO1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_SystemNumber"
+    }, {
+      "id" : "_iu3jbYO1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_Password"
+    }, {
+      "id" : "_iu3jaYO1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_Language"
+    }, {
+      "id" : "_iu3ja4O1Ee-Z08ALmRQ7SA",
+      "name" : "SirmaxSap_Host"
     } ]
   } ]
 }
