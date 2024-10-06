@@ -1,0 +1,11 @@
+{
+  "itemId" : "_545RoIPDEe-Z08ALmRQ7SA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_xPnakIO2Ee-Z08ALmRQ7SA",
+    "parameterList" : [ {
+      "id" : "_xPwkgYO2Ee-Z08ALmRQ7SA",
+      "name" : "ctx_etl_current_year"
+    } ]
+  } ]
+}
