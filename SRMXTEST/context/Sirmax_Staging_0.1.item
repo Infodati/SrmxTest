@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_cvAIIIO0Ee-Z08ALmRQ7SA">
+    <contextParameter comment="" name="Sirmax_Staging_Port" prompt="Sirmax_Staging_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="5432" xmi:id="_cvAIIYO0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_Database" prompt="Sirmax_Staging_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="sirmax_staging_test" xmi:id="_cvAIIoO0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_Schema" prompt="Sirmax_Staging_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="public" xmi:id="_cvAII4O0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_Password" prompt="Sirmax_Staging_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:SzbSKDEXD2ZoyInnthIey2VHr1HJU/hTwnVzwHo5TSUt9WLGYin5wA==" xmi:id="_cvAIJIO0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_Server" prompt="Sirmax_Staging_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="srvcit234.sirmax.locale" xmi:id="_cvAIJYO0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_Login" prompt="Sirmax_Staging_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres" xmi:id="_cvAIJoO0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_AdditionalParams" prompt="Sirmax_Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_cvAIJ4O0Ee-Z08ALmRQ7SA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="test" xmi:id="_cvAIKIO0Ee-Z08ALmRQ7SA">
+    <contextParameter comment="" name="Sirmax_Staging_Port" prompt="Sirmax_Staging_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="5432" xmi:id="_cvAIKYO0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_Database" prompt="Sirmax_Staging_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="sirmax_staging_test" xmi:id="_cvAIKoO0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_Schema" prompt="Sirmax_Staging_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="public" xmi:id="_cvAIK4O0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_Password" prompt="Sirmax_Staging_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:PhG4/55Eq9W4lpH2cZgOU/1GpM+DYB0G64W9dtNBaki88CjuUZ/Fqg==" xmi:id="_cvAILIO0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_Server" prompt="Sirmax_Staging_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="srvcit234.sirmax.locale" xmi:id="_cvAILYO0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_Login" prompt="Sirmax_Staging_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres" xmi:id="_cvAILoO0Ee-Z08ALmRQ7SA"/>
+    <contextParameter comment="" name="Sirmax_Staging_AdditionalParams" prompt="Sirmax_Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_cvAIL4O0Ee-Z08ALmRQ7SA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_574caf37-bfe6-4d45-b630-ac2f672c72e9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RbZoDo2BEyFWZbNmWyDvGBNqjvsZDDzKyGMLANWxMJbZzo57xZYCpLPCYjuHOB7cQ3eeTIQq+WeX&#13;
+oQjSS7FlsA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d80607bb-5fdd-4fe5-924c-f8cee5aaa7fd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cq08jPMltwp/fHuNuKSQ8EGETRX5H66dz7G/+eXxY0Px9x1dobK7xgCel8NBeKZVNXqinAOACeZn&#13;
+DrEhNVcv5w==</DigestValue></Reference></SignedInfo><SignatureValue>p0o6+DDQnXkVJ5TQLp5SJJtaEc4UNITkwmdqzK6eFKHmvKFZ85cSsekRhCxNCUj0kEBpzjx99H0m&#13;
+A0Q088Vb/2JHFSA1HeE28jd++zvr8NOV3AKXfJt2Cbp77SVjIfU4UtlVyYGWY21GROMLdtLnjbli&#13;
+i7X5WlEGhtYwEp/bwbtsooUXSLk/MuFkyZnf5wTTvY/N7lBgMfe2nMoqdiLFKpTH90weE9Ps0NB7&#13;
+4HZ3qp0qNoYPKm+Gpwy2mCUp6hgsxsB1ipnN70y2DGFLhxgUwaLr+1oPwrdUnuji9VeOcwNJdb2k&#13;
+mVEK8wsiOVqPpupEEjVJdF/rB1gD1Br2cKSxqQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d80607bb-5fdd-4fe5-924c-f8cee5aaa7fd" Target="#_574caf37-bfe6-4d45-b630-ac2f672c72e9"><Timestamp>2024-10-06 07:27:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

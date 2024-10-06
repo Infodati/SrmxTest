@@ -1,0 +1,29 @@
+{
+  "itemId" : "_kZlAEE2vEe-tTvjemBYVaA",
+  "contextList" : [ {
+    "contextName" : "prod",
+    "repoId" : "_cuz64IO0Ee-Z08ALmRQ7SA",
+    "parameterList" : [ {
+      "id" : "_cvAIIYO0Ee-Z08ALmRQ7SA",
+      "name" : "Sirmax_Staging_Port"
+    }, {
+      "id" : "_cvAIIoO0Ee-Z08ALmRQ7SA",
+      "name" : "Sirmax_Staging_Database"
+    }, {
+      "id" : "_cvAII4O0Ee-Z08ALmRQ7SA",
+      "name" : "Sirmax_Staging_Schema"
+    }, {
+      "id" : "_cvAIJIO0Ee-Z08ALmRQ7SA",
+      "name" : "Sirmax_Staging_Password"
+    }, {
+      "id" : "_cvAIJYO0Ee-Z08ALmRQ7SA",
+      "name" : "Sirmax_Staging_Server"
+    }, {
+      "id" : "_cvAIJoO0Ee-Z08ALmRQ7SA",
+      "name" : "Sirmax_Staging_Login"
+    }, {
+      "id" : "_cvAIJ4O0Ee-Z08ALmRQ7SA",
+      "name" : "Sirmax_Staging_AdditionalParams"
+    } ]
+  } ]
+}
