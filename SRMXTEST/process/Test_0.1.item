@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" hide="false" name="Default"/>
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" internalId="_4pLUAIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Port" prompt="Sirmax_Staging_Port?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_4pLUAYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Database" prompt="Sirmax_Staging_Database?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="sirmax_staging_test"/>
+    <contextParameter comment="" internalId="_4pLUAoO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Schema" prompt="Sirmax_Staging_Schema?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="public"/>
+    <contextParameter comment="" internalId="_4pL7EIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Password" prompt="Sirmax_Staging_Password?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_Password" value="enc:system.encryption.key.v1:bSp6o/PIPuSu+1JCtAkbmXPFR9KIgYdxw9/UV/MeFbyDGwyrNQKRbA=="/>
+    <contextParameter comment="" internalId="_4pL7EYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Server" prompt="Sirmax_Staging_Server?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="srvcit234.sirmax.locale"/>
+    <contextParameter comment="" internalId="_4pL7EoO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Login" prompt="Sirmax_Staging_Login?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="postgres"/>
+    <contextParameter comment="" internalId="_4pL7E4O0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_AdditionalParams" prompt="Sirmax_Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="prod">
+    <contextParameter comment="" internalId="_4pL7FIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Port" prompt="Sirmax_Staging_Port?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_4pL7FYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Database" prompt="Sirmax_Staging_Database?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="sirmax_staging_test"/>
+    <contextParameter comment="" internalId="_4pL7FoO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Schema" prompt="Sirmax_Staging_Schema?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="public"/>
+    <contextParameter comment="" internalId="_4pL7F4O0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Password" prompt="Sirmax_Staging_Password?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_Password" value="enc:system.encryption.key.v1:kobCuJ/lXTDWgScuksGq1wXXVYFkkRejV0DvHsk8FcYgb7EWDSIHbw=="/>
+    <contextParameter comment="" internalId="_4pL7GIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Server" prompt="Sirmax_Staging_Server?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="srvcit234.sirmax.locale"/>
+    <contextParameter comment="" internalId="_4pL7GYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Login" prompt="Sirmax_Staging_Login?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="postgres"/>
+    <contextParameter comment="" internalId="_4pL7GoO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_AdditionalParams" prompt="Sirmax_Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="test">
+    <contextParameter comment="" internalId="_4pL7G4O0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Port" prompt="Sirmax_Staging_Port?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_4pL7HIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Database" prompt="Sirmax_Staging_Database?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="sirmax_staging_test"/>
+    <contextParameter comment="" internalId="_4pL7HYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Schema" prompt="Sirmax_Staging_Schema?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="public"/>
+    <contextParameter comment="" internalId="_4pL7HoO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Password" prompt="Sirmax_Staging_Password?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_Password" value="enc:system.encryption.key.v1:o+7KEG0j3gCtLxJCswkoOCH9cXiEowMkGKw67op0L6SY+rnaNa16VA=="/>
+    <contextParameter comment="" internalId="_4pL7H4O0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Server" prompt="Sirmax_Staging_Server?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="srvcit234.sirmax.locale"/>
+    <contextParameter comment="" internalId="_4pL7IIO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_Login" prompt="Sirmax_Staging_Login?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="postgres"/>
+    <contextParameter comment="" internalId="_4pL7IYO0Ee-Z08ALmRQ7SA" name="Sirmax_Staging_AdditionalParams" prompt="Sirmax_Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value=""/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -100,16 +126,6 @@
   </parameters>
   <node componentName="tSAPTableInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="200" posY="200" sizeX="41" sizeY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPTableInput_1"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tSAPTableInput"/>
-    <elementParameter field="TEXT" name="VERSION" show="false" value="0.101 (ALPHA)"/>
-    <elementParameter field="TEXT" name="FAMILY" show="false" value="Business/SAP"/>
-    <elementParameter field="CHECK" name="START" show="false" value="true"/>
-    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
-    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tSAPTableInput"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Talend\8.0.1\studio\configuration\lib\java"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_vs9BsEtSEe-gjecqPgdhkg"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
@@ -382,27 +398,18 @@
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_2"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tPostgresqlOutput"/>
-    <elementParameter field="TEXT" name="VERSION" show="false" value="0.102 (ALPHA)"/>
-    <elementParameter field="TEXT" name="FAMILY" show="false" value="Databases/DB Specifics/PostgreSQL"/>
-    <elementParameter field="CHECK" name="STARTABLE" show="false" value="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="true"/>
-    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tPostgresqlOutput"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Talend\8.0.1\studio\configuration\lib\java"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_kZlAEE2vEe-tTvjemBYVaA"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;srvcit234.sirmax.locale&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;sirmax_staging_test&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.Sirmax_Staging_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Sirmax_Staging_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Sirmax_Staging_Database"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lB3DvdXZ1CQynCG9UWi/XBFVkGyYJUWCuy2QY3WYQ8dm/JeoBF6F09sw"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Sirmax_Staging_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.Sirmax_Staging_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+0Q2ooXqgS2ZcCLBvfZUDRhmVZV72INRsTi4R/RVvaFpuvQ5XxOjUMB4e0eK3t7RZWAJPW47MWRXHOo="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;kna1&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -416,7 +423,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Sirmax_Staging_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" show="false" value="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -1882,13 +1889,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a8b157ea-5578-453a-9013-0bfed681fb3b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pzyHQJ8pTMHN8AGoUKdyuPYzoBKuvxMpNj+T/zLmJ6wpGYPSiUSALlrQlouOslYErG+hIuJ+94C8&#13;
-6ERwrtbYHQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7a9889bd-3782-41b4-82e6-7182ab859744"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UI6Lig7mM3ZPYZP49n2+pROmOnJA2S3g3zpqhAUaH24vKto1T+gKYOxzdnY6sqsiYkn5TVbsyzS2&#13;
-xL/xKmVRAA==</DigestValue></Reference></SignedInfo><SignatureValue>o6R8gXMHkAkxaLTWSvdUUBSK/Wm3ZBDGopzUdwak1HGBKhUA8cyo7mBPAmpfRG7KabMNkKoQwzRi&#13;
-TuW8ZjlLOvOrKbODocLAgUjfjNCIYxszpSJ0OMjTa1JYfwnQeEBRktd6UP9kaOFzUyveCeTPl8cS&#13;
-p0q4UKB9bCCMOpLEUPft2auMu31yBinw1L+jtbJx2Jeq3srRqkamIx54+LiTZwvioDW7wolsJ6xe&#13;
-rxDPIJcADbeYxb5QGZuTcRUyKk6UTJNSKbm2lweJ9JgejA79E4Zlux+tldB04iJ9A55G/6VaIxTK&#13;
-ym1xv2Bsi4C3ybKmcWezDAzfWN1WJuVEjWecTg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5e58b194-0093-4990-ab73-4f77e1cf116a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RfaEGMTrQ2B53heu1ZHsfoRD9u1JngkmcY+vopQWHo0T974SXemFlrz6cGUxJeR5BNhOesFzmeKD&#13;
+MdR0Iauulw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_40485e9c-68b2-43fa-bf13-1260d6e07df1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oy8Fzb3PwEOCAkDb3czoyAw2hv5LOi6W40/+XdZy8+9BxpASYIN1/16OazZaKyjuGEkuOkNxU7rW&#13;
+jIk4ecCLzA==</DigestValue></Reference></SignedInfo><SignatureValue>HGVlI3rEmo6gnte2NHY9km7ma/BVZLY2CZkC34QkQ0yXhaofFHpzOGaXoacvKCskNXnznpSjclq8&#13;
+ndhOptZifZu50pYkw4I14S/JzXA3d1KSO0m8p4qQzKikCE5h/07qqcoxIFNxxcVx+xWQbl7jDOMb&#13;
+07sQ0SMKTqS4i13ya1mxppsOmWp/0vAuuMwXUE3wpB/ptU9dcnzdanSKvWzrEocnIoh1ZTYzwD64&#13;
+a/C6u1yv9f+AyXIC1CmgDoJXOYfIB17w9tXyPh6rUbVtPmmn71tPn4Jo3L64XCJY8ln29oznbkJV&#13;
+89w2d35EIX5IcV7Zp+a12JG7pER8/wkt0MScYQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1910,4 +1917,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7a9889bd-3782-41b4-82e6-7182ab859744" Target="#_a8b157ea-5578-453a-9013-0bfed681fb3b"><Timestamp>2024-07-29 14:27:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_40485e9c-68b2-43fa-bf13-1260d6e07df1" Target="#_5e58b194-0093-4990-ab73-4f77e1cf116a"><Timestamp>2024-10-06 07:30:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
