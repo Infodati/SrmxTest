@@ -3,24 +3,6 @@
   "contextList" : [ {
     "contextName" : "Default",
     "repoId" : "_TPwxEIO1Ee-Z08ALmRQ7SA",
-    "parameterList" : [ {
-      "id" : "_TP7JIYO1Ee-Z08ALmRQ7SA",
-      "name" : "SirmaxSap_Client"
-    }, {
-      "id" : "_TP7JIoO1Ee-Z08ALmRQ7SA",
-      "name" : "SirmaxSap_Language"
-    }, {
-      "id" : "_TP7JI4O1Ee-Z08ALmRQ7SA",
-      "name" : "SirmaxSap_SystemNumber"
-    }, {
-      "id" : "_TP7JJIO1Ee-Z08ALmRQ7SA",
-      "name" : "SirmaxSap_Host"
-    }, {
-      "id" : "_TP7JJYO1Ee-Z08ALmRQ7SA",
-      "name" : "SirmaxSap_UserName"
-    }, {
-      "id" : "_TP7JJoO1Ee-Z08ALmRQ7SA",
-      "name" : "SirmaxSap_Password"
-    } ]
+    "parameterList" : [ ]
   } ]
 }
