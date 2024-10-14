@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
   <model:JobletProcess defaultContext="Default" jobType="Standard">
-    <context confirmationNeeded="false" hide="false" name="Default"/>
+    <context confirmationNeeded="false" hide="false" name="Default">
+      <contextParameter comment="" internalId="_PybGMIoFEe-htvoMJYUI6Q" name="Sirmax_Staging_Port" prompt="Sirmax_Staging_Port?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="5432"/>
+      <contextParameter comment="" internalId="_PybGMYoFEe-htvoMJYUI6Q" name="Sirmax_Staging_Database" prompt="Sirmax_Staging_Database?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="sirmax_staging_test"/>
+      <contextParameter comment="" internalId="_PybGMooFEe-htvoMJYUI6Q" name="Sirmax_Staging_Schema" prompt="Sirmax_Staging_Schema?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="public"/>
+      <contextParameter comment="" internalId="_PybGM4oFEe-htvoMJYUI6Q" name="Sirmax_Staging_Password" prompt="Sirmax_Staging_Password?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_Password" value="enc:system.encryption.key.v1:tBuAjvA968R8wAp8h1wAqvjcC1sPmrRg/ZIGENn186ofz7yuUGCawg=="/>
+      <contextParameter comment="" internalId="_PybGNIoFEe-htvoMJYUI6Q" name="Sirmax_Staging_Server" prompt="Sirmax_Staging_Server?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="srvcit234.sirmax.locale"/>
+      <contextParameter comment="" internalId="_PybGNYoFEe-htvoMJYUI6Q" name="Sirmax_Staging_Login" prompt="Sirmax_Staging_Login?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="postgres"/>
+      <contextParameter comment="" internalId="_PybGNooFEe-htvoMJYUI6Q" name="Sirmax_Staging_AdditionalParams" prompt="Sirmax_Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value=""/>
+    </context>
+    <context confirmationNeeded="false" hide="false" name="test">
+      <contextParameter comment="" internalId="_PybGN4oFEe-htvoMJYUI6Q" name="Sirmax_Staging_Port" prompt="Sirmax_Staging_Port?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="5432"/>
+      <contextParameter comment="" internalId="_PybGOIoFEe-htvoMJYUI6Q" name="Sirmax_Staging_Database" prompt="Sirmax_Staging_Database?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="sirmax_staging_test"/>
+      <contextParameter comment="" internalId="_PybGOYoFEe-htvoMJYUI6Q" name="Sirmax_Staging_Schema" prompt="Sirmax_Staging_Schema?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="public"/>
+      <contextParameter comment="" internalId="_PybtQIoFEe-htvoMJYUI6Q" name="Sirmax_Staging_Password" prompt="Sirmax_Staging_Password?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_Password" value="enc:system.encryption.key.v1:Sv6pxe2b3JP0ecVRwA8vzdTIr4HBi95J4iRhSb3SeOi/E+29hVjirw=="/>
+      <contextParameter comment="" internalId="_PybtQYoFEe-htvoMJYUI6Q" name="Sirmax_Staging_Server" prompt="Sirmax_Staging_Server?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="srvcit234.sirmax.locale"/>
+      <contextParameter comment="" internalId="_PybtQooFEe-htvoMJYUI6Q" name="Sirmax_Staging_Login" prompt="Sirmax_Staging_Login?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value="postgres"/>
+      <contextParameter comment="" internalId="_PybtQ4oFEe-htvoMJYUI6Q" name="Sirmax_Staging_AdditionalParams" prompt="Sirmax_Staging_AdditionalParams?" promptNeeded="false" repositoryContextId="_cuz64IO0Ee-Z08ALmRQ7SA" type="id_String" value=""/>
+    </context>
     <parameters>
       <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -131,6 +148,40 @@
         <column defaultValue="" key="false" length="255" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       </metadata>
     </node>
+    <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="280">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+      <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tPostgresqlConnection"/>
+      <elementParameter field="TEXT" name="VERSION" show="false" value="0.102 (ALPHA)"/>
+      <elementParameter field="TEXT" name="FAMILY" show="false" value="Databases/DB Specifics/PostgreSQL|ELT/Connections"/>
+      <elementParameter field="CHECK" name="START" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
+      <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="true"/>
+      <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tPostgresqlConnection"/>
+      <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
+      <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Talend\8.0.1\studio\configuration\lib\java"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_kZlAEE2vEe-tTvjemBYVaA"/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+      <elementParameter field="TEXT" name="HOST" value="context.Sirmax_Staging_Server"/>
+      <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
+      <elementParameter field="TEXT" name="PORT" value="context.Sirmax_Staging_Port"/>
+      <elementParameter field="TEXT" name="DBNAME" value="context.Sirmax_Staging_Database"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Sirmax_Staging_Schema"/>
+      <elementParameter field="TEXT" name="USER" value="context.Sirmax_Staging_Login"/>
+      <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:cK4fZR2SL+R9Mpr7PTBsJZeADu0O6DQd4oET7p5s0MSYz6fOEbt8QBYV655jvvCROSsdqxWVxcE7XN8="/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
+      <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="&quot;sirmax_staging_test&quot;"/>
+      <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+      <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+      <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PROPERTIES" value="context.Sirmax_Staging_AdditionalParams"/>
+      <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="Sirmax-Staging"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    </node>
     <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tMap_1">
       <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
         <elementValue elementRef="TRACE_COLUMN" value="dummy"/>
@@ -140,8 +191,8 @@
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
     </connection>
-    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="TRIGGER_OUTPUT_1">
-      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tDBConnection_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
     </connection>
     <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tContextLoad_1">
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -149,6 +200,9 @@
     </connection>
     <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="TRIGGER_INPUT_1" offsetLabelX="0" offsetLabelY="0" source="TRIGGER_INPUT_1" target="tFixedFlowInput_1">
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="TRIGGER_OUTPUT_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
     </connection>
     <subjob>
       <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
@@ -165,6 +219,11 @@
       <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
       <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
     </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+    </subjob>
     <jobletNodes componentName="TRIGGER_INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="40" posY="40" trigger="true">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_INPUT_1"/>
       <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
@@ -174,7 +233,7 @@
       <elementParameter field="CHECK" name="INFORMATION" value="false"/>
       <elementParameter field="MEMO" name="COMMENT" value=""/>
     </jobletNodes>
-    <jobletNodes componentName="TRIGGER_OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="40" posY="280" trigger="true">
+    <jobletNodes componentName="TRIGGER_OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="40" posY="400" trigger="true">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_OUTPUT_1"/>
       <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
       <elementParameter field="CHECK" name="START" show="false" value="false"/>
@@ -185,13 +244,13 @@
     </jobletNodes>
   </model:JobletProcess>
   <TalendProperties:ByteArray/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7e9669ef-4043-4e44-9741-fe5ad1467a9d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wGXLvik0BBfftU92EPs0yReP6o73gmtyaudCxAHk//gSjQ8971QoDsTHAfBcNe1t0It9DjebGMG8&#13;
-vEQpIVeFcw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_083edb91-f482-4264-a61f-96d46cb46b92"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zcVPQVJAByEKA6iRgs8yZD7PRRYhMxL/DK84Nxi/tdo4ufCmjs89K1CwvM74vcoTfip0osLq9CLv&#13;
-F/NlywQDyw==</DigestValue></Reference></SignedInfo><SignatureValue>Pme8Jt45wajR1RG9cZBBFg2r6SWgn2u0rSdMn3vs9rdNRM0N1Ng3yZ0Nqh1pBFYhTxrrO4ilBcu2&#13;
-jtOZk4phdzU/QAD+MxurHUdxfibDRbMvM1nGeChMX+VBsYAOoFey//sZ9IQe19zY/HiR2RSV0fCm&#13;
-nIsdiZhJWUNEgfSWQyGUneVitLpT6yBEGzPFcHRhDahsj49fVfQKVsisynRMSlweeG8dbnk3JaGP&#13;
-P1uW8BoCzY/ee5r7J+Whh6H1Cil6X8UzvNT7NDex7bxXLYd6jTQs2Lyx9BiPkjCUdO77r4EdV2Yw&#13;
-oVClC4/utraZqBikaolxV5SYmL0lRI0Lv8qy/A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2d923d84-1c3b-4850-915e-f279a8aa79f3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ovPv+boWSECthPPS1U6RCsHg3KwB3l4tFcYk5pFWaQ/jJ8liico+S+5eAhoJcebnSYjUpD6Fe1Zu&#13;
+o9YAa785Pg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9b3002ae-0cc7-438c-a164-0a52186cd96a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zzHA4DapGphSMuWvqMtmzeFu0y2kQJOJruC3+vc0vbLe/Y+vbjyo5LxRw25K6M6B6Zp+btRnYxx8&#13;
+CSFOuN7SRw==</DigestValue></Reference></SignedInfo><SignatureValue>gHrJw2P5sY2gPBJzG6PRB1cBTLlS3IGAMwpcIa5EFLZdYNCflQqnVxulPOo6myzGu/rd7u/nucXA&#13;
+bNzxreJhA+pzclFG7TLq9R/GxEvV7F4DJQVmwHX/37fClNFvauATOXeROX5bE7JSY2UR0amwBEBV&#13;
+fNk9EpRYsUULxi8nmqpIBuYu5NqOzAI33F6hpxjOvxfMdUuCrOB0khzumqX8rvzgu7x0sXyqiRDA&#13;
+8m5COfDhbCqe7cMS9dwOY6X7DzQXFXj74AWoJ/6KJtNRYkZgaV/IhTsWnV5Pxi9CcDLpnamdLSo+&#13;
+DpxgxNa0jMrls0tbZbgrmO/qXavUA2d4EDnopg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -213,4 +272,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_083edb91-f482-4264-a61f-96d46cb46b92" Target="#_7e9669ef-4043-4e44-9741-fe5ad1467a9d"><Timestamp>2024-10-14 08:17:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9b3002ae-0cc7-438c-a164-0a52186cd96a" Target="#_2d923d84-1c3b-4850-915e-f279a8aa79f3"><Timestamp>2024-10-14 08:21:01</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
