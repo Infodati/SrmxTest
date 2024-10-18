@@ -170,7 +170,7 @@
       <column comment="" key="false" length="-1" name="talend_filler" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="context.ctx_etl_current_year " name="talend_year" nullable="true" type="id_String"/>
@@ -232,12 +232,12 @@
     <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
-      <column comment="" key="true" length="-1" name="talend_year" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="talend_filler" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="-1" name="talend_year" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="talend_filler" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="true" length="-1" name="talend_year" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="talend_filler" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="-1" name="talend_year" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="talend_filler" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -245,6 +245,7 @@
   <node componentName="tPostgresqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="LoadEtlParams_1_tDBConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
@@ -298,13 +299,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2c784b38-423e-49a2-ae8f-f0c7579006f9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>l4lySdiySeHd2d+yixFgY7JIxWHZ/ZvAIj+7hMe93lwCKwkpbVmzEO0w6hfRFxT9/FebUrRE+0vY&#13;
-nhMWdBX5IA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1ea5014e-db4f-43fe-ba8c-ed6522a3b1e8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kOuzMPZd+snUWWHDRYxdlUZ7TVXfKCg7xkzP3K2q/6QrtKyz9ZC8NufBfUZr3Wk70tRlsW5dMTPC&#13;
-Sx28WMezcg==</DigestValue></Reference></SignedInfo><SignatureValue>EyVGOnYqj0cEXSD00ZGTf8uvwdYGlLqo0Bqkg45zfmsqxBOF3VrqzgLmTjNJm5H5Wg29plvg79/+&#13;
-8UAhWJysxZXbOsKN09DAu8D3vgg/rZ/HMLQL0K07G1A0rtP9fqfe7/1FMs5CFuvUkRtliAit3pEi&#13;
-llmGxVZ+Aybvc7E5xv90LD117shCD76y3gr3kpS0vaz/XzywOzlkugk3IzHqn+1+vUH2mh2OLviU&#13;
-wbUbjl60WCP4uQZfZS4tedzkt3stPaxyUK/kI+yRZb3Rv9ql81FofWz7hBeApWsDj8dsLGrX8kyy&#13;
-MuYxzXG2mxmoYI0D/7WzvptEBktmdgVxYCuMrQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4c59e1b9-fa80-4c36-a21b-8b0657df8ca4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>77ShGH87W8u6S9BqpD5jvxvTX9pmCbIuDoSNpLEIMRiXDXF9cP/G+TH2x0cBCwV2I13CYd5yV18w&#13;
+FRpIOfqoHw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2a192fce-d32b-4122-9f2d-b451affd79c7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ACIzvp53Xdw+sNVJIhs55sg/sBDBdc8lqENB5eXSEJLJRJY/9M+fnF2K9cd0Ke/+C1ifYOlAZIMo&#13;
+q/UTdsi49g==</DigestValue></Reference></SignedInfo><SignatureValue>G3uIC31xvnyjVgUmb8kv2Pr53iADR+vZehmnEZuTPMitdzD+nmGY6RXIvVqc8nnqXZHSaexZrEGB&#13;
+U3vLa1AwN2xyIB4NwSaC5Brlf1rvAg5VzH8gcyIim+6KehZH7BWj7+HDAvCBYoCBXMM+QK55kCc8&#13;
+vkMBJVU7k2eb5fs6eH1itFy5m1t+2S2XHCDkGkVRZ1jkKrs9qitkmvTwJZJfMVtPJrvSBm+m7bjO&#13;
+EsITG5EKzIWtdppdJeBN1Eb8eoxYndM+8MuQL9rh2CzkAXOLRCejNNUYubzZkqxdOXIK5UZEPStL&#13;
+Np8Emmje6xJD2i9KnCUmRf369a2MQgoPngzCxg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -326,4 +327,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1ea5014e-db4f-43fe-ba8c-ed6522a3b1e8" Target="#_2c784b38-423e-49a2-ae8f-f0c7579006f9"><Timestamp>2024-10-14 09:00:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2a192fce-d32b-4122-9f2d-b451affd79c7" Target="#_4c59e1b9-fa80-4c36-a21b-8b0657df8ca4"><Timestamp>2024-10-18 06:20:40</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
